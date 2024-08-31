@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   autoprefixer:
     runs-on: ubuntu-latest
